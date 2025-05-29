@@ -1445,11 +1445,6 @@
               <FilePath>..\guider\src\generated\gui_guider.c</FilePath>
             </File>
             <File>
-              <FileName>setup_scr_screen.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\guider\src\generated\setup_scr_screen.c</FilePath>
-            </File>
-            <File>
               <FileName>widgets_init.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\guider\src\generated\widgets_init.c</FilePath>
@@ -1478,6 +1473,76 @@
               <FileName>_sun_alpha_32x32.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\guider\src\generated\images\_sun_alpha_32x32.c</FilePath>
+            </File>
+            <File>
+              <FileName>_children_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_children_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>_clean_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_clean_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>_cycle_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_cycle_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>_fast_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_fast_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>_multi_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_multi_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>_time_alpha_100x100.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\images\_time_alpha_100x100.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_children.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_children.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_clean.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_clean.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_cycle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_cycle.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_fast.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_fast.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_home.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_home.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_multi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_multi.c</FilePath>
+            </File>
+            <File>
+              <FileName>setup_scr_screen_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\setup_scr_screen_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_font_SourceHanSerifSC_Regular_20.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\guider\src\generated\guider_fonts\lv_font_SourceHanSerifSC_Regular_20.c</FilePath>
             </File>
           </Files>
         </Group>

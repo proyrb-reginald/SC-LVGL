@@ -1,1 +1,1 @@
-GEN_CSRCS += _sun_alpha_32x32.c
+GEN_CSRCS += _sun_alpha_32x32.c _time_alpha_100x100.c _children_alpha_100x100.c _clean_alpha_100x100.c _cycle_alpha_100x100.c _fast_alpha_100x100.c _multi_alpha_100x100.c
