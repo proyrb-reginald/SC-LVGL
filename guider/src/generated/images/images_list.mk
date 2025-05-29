@@ -1,0 +1,1 @@
+GEN_CSRCS += _sun_alpha_32x32.c

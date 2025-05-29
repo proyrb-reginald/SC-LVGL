@@ -1,0 +1,158 @@
+T101A4 000:955.038   SEGGER J-Link V7.92m Log File
+T101A4 000:955.424   DLL Compiled: Oct 26 2023 16:14:53
+T101A4 000:955.443   Logging started @ 2025-03-05 08:29
+T101A4 000:955.459   Process: F:\Keil_v5\UV4\UV4.exe
+T101A4 000:955.488 - 955.473ms
+T101A4 000:955.518 JLINK_SetWarnOutHandler(...)
+T101A4 000:955.535 - 0.021ms
+T101A4 000:955.553 JLINK_OpenEx(...)
+T101A4 000:961.150   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T101A4 000:961.946   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T101A4 000:962.475   Decompressing FW timestamp took 406 us
+T101A4 000:972.019   Hardware: V9.60
+T101A4 000:972.065   S/N: 69658287
+T101A4 000:972.079   OEM: SEGGER
+T101A4 000:972.091   Feature(s): JFlash
+T101A4 000:974.064   Bootloader: (Could not read)
+T101A4 000:976.131   TELNET listener socket opened on port 19021
+T101A4 000:976.452   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T101A4 000:976.949   WEBSRV Webserver running on local port 19080
+T101A4 000:977.240   Looking for J-Link GUI Server exe at: F:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T101A4 000:977.451   Looking for J-Link GUI Server exe at: F:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T101A4 000:977.495   Forking J-Link GUI Server: F:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T101A4 001:057.934   J-Link GUI Server info: "J-Link GUI server V7.92m "
+T101A4 001:078.379 - 122.771ms returns "O.K."
+T101A4 001:078.472 JLINK_GetEmuCaps()
+T101A4 001:078.499 - 0.019ms returns 0xB9FF7BBF
+T101A4 001:078.525 JLINK_TIF_GetAvailable(...)
+T101A4 001:079.020 - 0.494ms
+T101A4 001:079.069 JLINK_SetErrorOutHandler(...)
+T101A4 001:079.079 - 0.009ms
+T101A4 001:079.176 JLINK_ExecCommand("ProjectFile = "E:\Work\SC32F11_Test1\MB0043应用资料_V1.0\MB0043应用资料_V1.0\Demo_Code\Project\JLinkSettings.ini"", ...). 
+T101A4 001:107.246   Ref file found at: F:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T101A4 001:107.510   REF file references invalid XML file: F:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T101A4 001:107.951   Device "CORTEX-M0+" selected.
+T101A4 001:108.760 - 29.591ms returns 0x00
+T101A4 001:108.902 JLINK_ExecCommand("Device = SC32R803TR8", ...). 
+T101A4 001:109.368   Device "CORTEX-M0+" selected.
+T101A4 001:110.236 - 1.282ms returns 0x00
+T101A4 001:110.279 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T101A4 001:110.305 - 0.004ms returns 0x01
+T101A4 001:110.325 JLINK_GetHardwareVersion()
+T101A4 001:110.341 - 0.016ms returns 96000
+T101A4 001:110.392 JLINK_GetDLLVersion()
+T101A4 001:110.411 - 0.018ms returns 79213
+T101A4 001:110.437 JLINK_GetOEMString(...)
+T101A4 001:110.464 JLINK_GetFirmwareString(...)
+T101A4 001:110.480 - 0.021ms
+T101A4 001:110.510 JLINK_GetDLLVersion()
+T101A4 001:110.527 - 0.016ms returns 79213
+T101A4 001:110.545 JLINK_GetCompileDateTime()
+T101A4 001:110.560 - 0.014ms
+T101A4 001:110.583 JLINK_GetFirmwareString(...)
+T101A4 001:110.600 - 0.016ms
+T101A4 001:110.637 JLINK_GetHardwareVersion()
+T101A4 001:110.655 - 0.018ms returns 96000
+T101A4 001:110.677 JLINK_GetSN()
+T101A4 001:110.694 - 0.016ms returns 69658287
+T101A4 001:110.716 JLINK_GetOEMString(...)
+T101A4 001:110.741 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T101A4 001:113.076 - 2.332ms returns 0x00
+T101A4 001:113.146 JLINK_HasError()
+T101A4 001:113.254 JLINK_SetSpeed(5000)
+T101A4 001:113.856 - 0.602ms
+T101A4 001:116.867 JLINK_HasError()
+T101A4 001:116.908 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T101A4 001:116.920 - 0.012ms returns JLINKARM_RESET_TYPE_NORMAL
+T101A4 001:116.932 JLINK_Reset()
+T101A4 001:223.745   Failed to attach to CPU. Trying connect under reset.
+T101A4 001:225.131   Found SW-DP with ID 0x0BC11477
+T101A4 001:227.825   SWD speed too high. Reduced from 4000 kHz to 2700 kHz for stability
+T101A4 001:230.741   DPIDR: 0x0BC11477
+T101A4 001:230.774   CoreSight SoC-400 or earlier
+T101A4 001:230.789   Scanning AP map to find all available APs
+T101A4 001:331.585   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 001:332.329   Iterating through AP map to find AHB-AP to use
+T101A4 001:332.378   Attach to CPU failed. Executing connect under reset.
+T101A4 001:357.059   DPIDR: 0x0BC11477
+T101A4 001:357.138   CoreSight SoC-400 or earlier
+T101A4 001:357.166   Scanning AP map to find all available APs
+T101A4 001:458.557   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 001:459.273   Iterating through AP map to find AHB-AP to use
+T101A4 001:459.327   Could not find core in Coresight setup
+T101A4 002:120.033   Found SW-DP with ID 0x0BC11477
+T101A4 002:124.227   DPIDR: 0x0BC11477
+T101A4 002:124.262   CoreSight SoC-400 or earlier
+T101A4 002:124.277   Scanning AP map to find all available APs
+T101A4 002:225.602   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 002:226.357   Iterating through AP map to find AHB-AP to use
+T101A4 002:226.405   Attach to CPU failed. Executing connect under reset.
+T101A4 002:250.941   DPIDR: 0x0BC11477
+T101A4 002:251.016   CoreSight SoC-400 or earlier
+T101A4 002:251.044   Scanning AP map to find all available APs
+T101A4 002:352.597   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 002:353.274   Iterating through AP map to find AHB-AP to use
+T101A4 002:353.296   Could not find core in Coresight setup
+T101A4 002:454.110 - 1337.174ms
+T101A4 002:454.184 JLINK_GetId()
+T101A4 002:456.460   Found SW-DP with ID 0x0BC11477
+T101A4 002:460.924   DPIDR: 0x0BC11477
+T101A4 002:460.969   CoreSight SoC-400 or earlier
+T101A4 002:460.986   Scanning AP map to find all available APs
+T101A4 002:562.651   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 002:563.339   Iterating through AP map to find AHB-AP to use
+T101A4 002:563.384   Attach to CPU failed. Executing connect under reset.
+T101A4 002:587.232   DPIDR: 0x0BC11477
+T101A4 002:587.275   CoreSight SoC-400 or earlier
+T101A4 002:587.290   Scanning AP map to find all available APs
+T101A4 002:688.636   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 002:689.374   Iterating through AP map to find AHB-AP to use
+T101A4 002:689.412   Could not find core in Coresight setup
+T101A4 003:348.135   Found SW-DP with ID 0x0BC11477
+T101A4 003:352.269   DPIDR: 0x0BC11477
+T101A4 003:352.403   CoreSight SoC-400 or earlier
+T101A4 003:352.421   Scanning AP map to find all available APs
+T101A4 003:453.699   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 003:454.320   Iterating through AP map to find AHB-AP to use
+T101A4 003:454.342   Attach to CPU failed. Executing connect under reset.
+T101A4 003:477.499   DPIDR: 0x0BC11477
+T101A4 003:477.571   CoreSight SoC-400 or earlier
+T101A4 003:477.596   Scanning AP map to find all available APs
+T101A4 003:578.689   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 003:579.311   Iterating through AP map to find AHB-AP to use
+T101A4 003:579.332   Could not find core in Coresight setup
+T101A4 003:679.963 - 1225.774ms returns 0x00000000
+T101A4 003:680.073 JLINK_GetId()
+T101A4 003:682.103   Found SW-DP with ID 0x0BC11477
+T101A4 003:686.520   DPIDR: 0x0BC11477
+T101A4 003:686.574   CoreSight SoC-400 or earlier
+T101A4 003:686.597   Scanning AP map to find all available APs
+T101A4 003:787.701   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 003:788.393   Iterating through AP map to find AHB-AP to use
+T101A4 003:788.465   Attach to CPU failed. Executing connect under reset.
+T101A4 003:811.886   DPIDR: 0x0BC11477
+T101A4 003:811.939   CoreSight SoC-400 or earlier
+T101A4 003:811.954   Scanning AP map to find all available APs
+T101A4 003:912.703   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 003:913.507   Iterating through AP map to find AHB-AP to use
+T101A4 003:913.552   Could not find core in Coresight setup
+T101A4 004:572.212   Found SW-DP with ID 0x0BC11477
+T101A4 004:576.256   DPIDR: 0x0BC11477
+T101A4 004:576.281   CoreSight SoC-400 or earlier
+T101A4 004:576.294   Scanning AP map to find all available APs
+T101A4 004:677.735   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 004:678.399   Iterating through AP map to find AHB-AP to use
+T101A4 004:678.444   Attach to CPU failed. Executing connect under reset.
+T101A4 004:702.217   DPIDR: 0x0BC11477
+T101A4 004:702.258   CoreSight SoC-400 or earlier
+T101A4 004:702.272   Scanning AP map to find all available APs
+T101A4 004:803.746   AP[0]: Stopped AP scan as end of AP map seems to be reached
+T101A4 004:804.371   Iterating through AP map to find AHB-AP to use
+T101A4 004:804.388   Could not find core in Coresight setup
+T101A4 004:905.081 - 1225.005ms returns 0x00000000
+T101A4 004:929.121 JLINK_GetFirmwareString(...)
+T101A4 004:929.167 - 0.045ms
+T101A4 033:622.052 JLINK_Close()
+T101A4 033:635.508 - 13.455ms
+T101A4 033:635.565   
+T101A4 033:635.580   Closed
